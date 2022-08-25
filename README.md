@@ -2,6 +2,9 @@
 This project shows how to encapsulate Gradle Enterprise build logic in a Gradle Settings Plugin.
 It contains two project examples using composite builds applying the plugin defined in this project.
 
+The main goal is to reuse the Gradle Enterprise configuration across different projects in the organization:
+![Org](/resources/org.png "Org")
+
 #### Structure
 * acme-android-project: Android project using the AcmeSettingsGradlePlugin
 * acme-backend-project: Spring project using the AcmeSettingsGradlePlugin
