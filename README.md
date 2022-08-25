@@ -4,7 +4,7 @@ It contains two project examples using composite builds applying the plugin defi
 
 The main goal is to reuse the Gradle Enterprise configuration across different projects in the organization:
 
-![Org](/resources/org.png "Org")
+![Org](/resources/org_plugin.png "Org")
 
 #### Structure
 * acme-android-project: Android project using the AcmeSettingsGradlePlugin
