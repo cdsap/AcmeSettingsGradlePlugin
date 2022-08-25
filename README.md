@@ -3,6 +3,7 @@ This project shows how to encapsulate Gradle Enterprise build logic in a Gradle 
 It contains two project examples using composite builds applying the plugin defined in this project.
 
 The main goal is to reuse the Gradle Enterprise configuration across different projects in the organization:
+
 ![Org](/resources/org.png "Org")
 
 #### Structure
