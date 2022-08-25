@@ -1,0 +1,15 @@
+pluginManagement {
+    includeBuild "../AcmeSettingsGradlePlugin"
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+plugins{
+    id("io.github.acme.settings.gradle.plugin")
+}
+
+rootProject.name = "acme-android-project"
+include ':app'

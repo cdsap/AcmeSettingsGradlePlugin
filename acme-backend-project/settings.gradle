@@ -1,0 +1,14 @@
+pluginManagement {
+    includeBuild "../AcmeSettingsGradlePlugin"
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+plugins{
+    id("io.github.acme.settings.gradle.plugin")
+}
+
+rootProject.name = "acme-android-backend"
+include ':service'
